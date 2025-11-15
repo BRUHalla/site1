@@ -4,14 +4,38 @@
 }
 
 .navbar a {
+    color: black;
     text-align: center;
     padding: 10px 16px;
     text-decoration: none;
     float: left;
-    
 }
 
 .navbar a:hover {
     color: black;
     background: BurlyWood;
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: bisque;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .btn {
+  background-color: burlywood;
+}
+ 
+.dropdown-content li {
+  display: block;
+}
+
